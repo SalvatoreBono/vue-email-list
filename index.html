@@ -22,13 +22,13 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div id="app">
       <ul>
+        <!-- Se la lunghezza dell'array dell'emailGenerator è uguale a 10 stampa  -->
         <li
           v-if="emailGenerator.length === 10"
           v-for="singleEmail in emailGenerator"
